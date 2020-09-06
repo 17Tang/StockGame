@@ -1,36 +1,46 @@
 *{
     margin:0;
+    padding: 0;
+    list-style: none;
 }
 h1{
-    background-color: #fa0;
+    background-color:#3E72A8;
+    color: #fff;
     text-align: center;
-    font-family: 微軟正黑體;
+    font-size: 45px;
+    padding: 10px;
+    font-weight: bold;
 }
 h2{
+    font-size: 16px;
     padding: 10px;
+    font-weight: bold;
     font-family: 微軟正黑體;
 }
 li{
-    padding: 5px;
+    font-family: 微軟正黑體;
+    line-height: 2em;
 }
-div.header{
-    background-color:#000;
+.header{
+    background-color:#333333;
     text-align: center;
     font-size:0 ;
+    width: 100%;
 }
-div.header span{
+.header span{
     color: #fff;
     text-decoration: none;
-    display: inline-block;
+    line-height: 32px;
     padding: 6px 20px;
     font-size: 16px;
     transition: 0.5s;
+    display: inline-block;
     font-family: 微軟正黑體;
 }
-div.header span:hover{
-    background-color: #fa0;   
+.header span:hover{
+    background-color: #595959;   
 }
-span.anno{
+.anno{
     color:gray;
     font-size: 10px;
     font-style: italic;
@@ -38,22 +48,58 @@ span.anno{
     bottom: -3px;
 }
 table{
-    width: 600px;
-    margin-top: 5px;
+    width: 500px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid black;
-    align-content: center;
+    border: 2px solid #E0E0E0f;
     text-align: center;
+    vertical-align: middle;
     border-collapse: collapse;
-    font-family: 微軟正黑體;
+}
+th{
+    border: 1px solid #fff;
+    padding: 2px;
     font-size: 12px;
+    font-family: 微軟正黑體;
+    vertical-align: middle;
+    background-color: #468C89;
+    color: #fff;
 }
 td{
-    border: 1px solid black;
+    border: 1px solid #E0E0E0;
     padding: 2px;
+    font-size: 12px;
+    font-family: 微軟正黑體;
+    vertical-align: middle;
 }
 .moneyball{
     color:red;
     font-weight: bold;
+}
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 26px;
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+    .header span{
+        display: inline-block;
+        font-size: 12px;
+        padding: 3px 8px;
+        width: 25%;
+    }
+    li{
+        font-size: 12px;
+    }
+    table{
+        width: 50%;
+    }
+    td{
+        font-size: 8px;
+        padding: 1px;
+        writing-mode: vertical-lr
+    }
 }
