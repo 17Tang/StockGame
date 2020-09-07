@@ -74,7 +74,15 @@ td{
     vertical-align: middle;
 }
 .moneyball{
+    background-color: #EDDB8A;
+    font-weight: bold;
+}
+.up{
     color:red;
+    font-weight: bold;
+}
+.down{
+    color:green;
     font-weight: bold;
 }
 @media screen and (max-width: 500px){
