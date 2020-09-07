@@ -48,12 +48,10 @@ li{
     bottom: -3px;
 }
 table{
-    width: 500px;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #E0E0E0f;
-    text-align: center;
+    border: 2px solid #E0E0E0;
     vertical-align: middle;
     border-collapse: collapse;
 }
@@ -62,6 +60,7 @@ th{
     padding: 2px;
     font-size: 12px;
     font-family: 微軟正黑體;
+    text-align: center;
     vertical-align: middle;
     background-color: #468C89;
     color: #fff;
@@ -72,18 +71,21 @@ td{
     font-size: 12px;
     font-family: 微軟正黑體;
     vertical-align: middle;
+    text-align: right;
 }
 .moneyball{
-    background-color: #EDDB8A;
+    color:yellow;
     font-weight: bold;
 }
 .up{
     color:red;
     font-weight: bold;
+    text-align: right;
 }
 .down{
     color:green;
     font-weight: bold;
+    text-align: right;
 }
 @media screen and (max-width: 500px){
     h1{
