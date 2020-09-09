@@ -3,6 +3,33 @@
     padding: 0;
     list-style: none;
 }
+.member-page{
+    background-color: #003;
+}
+.wrap{
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.item{
+    width: 300px;
+    margin: 15px;
+    text-align: center;
+    background-color: #FFF;
+    border: 1px solid #ccc ;
+}
+.item img{
+    width: 100%;
+}
+.item h2{
+    border-bottom: 1px solid #888;
+    padding-bottom: .3em;
+    margin-bottom: .3em;
+}
+.item p{
+    line-height: 1.6 ;
+}
 h1{
     background-color:#3E72A8;
     color: #fff;
